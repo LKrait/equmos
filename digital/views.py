@@ -6,5 +6,10 @@ def home(request):
 
 
 def labs(request):
-    return render(request, 'labs.html')
+    return render(request, 'digital/labs.html')
+
+
+def acc(request):
+    return render(request, 'digital/login.html')
+
 
